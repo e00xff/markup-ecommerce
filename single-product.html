@@ -17,6 +17,29 @@
             flex-basis: 24%;
             cursor: pointer;
         }
+
+        #single-product select {
+            display: block;
+            padding: 5px 10px;
+        }
+
+        #single-product input {
+            width: 50px;
+            height: 40px;
+            padding-left: 10px;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        #single-product input:focus {
+            outline: none;
+        }
+
+        .buy-btn {
+            background: #fb77fb;
+            opacity: 1;
+            transition: 0.3s all;
+        }
     </style>
 </head>
 <body>
@@ -84,6 +107,25 @@
                         <img src="dist/img/products/prod-4.jpeg" width="100%" class="small-img" alt="">
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-7 col-md-12 col-12">
+                <h6>Home / T-Shirt</h6>
+                <h3 class="py-3">Men's Fashion T-Shirt</h3>
+                <h2>$ 120.00</h2>
+
+                <select class="my-3">
+                    <option value="">Select Size</option>
+                    <option value="">XL</option>
+                    <option value="">XXL</option>
+                    <option value="">Small</option>
+                    <option value="">Large</option>
+                </select>
+                <input type="number" value="1">
+                <button class="buy-btn">Add To Cart</button>
+
+                <h4 class="mt-5 mb-5">Product Details</h4>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nam itaque tempore aliquid ad assumenda reprehenderit repudiandae dolore corrupti iure?</span>
+
             </div>
         </div>
     </div>
