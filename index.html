@@ -13,7 +13,9 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
     <div class="container">
-        <img src="dist/img/logo.png" class="img-fluid" alt="">
+        <a href="index.html">
+            <img src="dist/img/logo.png" class="img-fluid" alt="">
+        </a>
         <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span>
                 <i id="bar" class="fa-solid fa-bars"></i>
@@ -37,6 +39,12 @@
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="#">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </a>
@@ -55,25 +63,96 @@
 <section id="home">
     <div class="container">
         <h5>New Arraivals</h5>
-        <h1><span>Best Price</span> This Year</h1>
+        <h1><span>Extended</span> label</h1>
         <p>Shoomatic offers your very comfortable time<br> on walking and exercises.</p>
-        <button>Shop Now</button>
+        <button onclick="window.location.href='shop.html';">Shop Now</button>
     </div>
 </section>
 
 <!-- Brand -->
-<section id="brand">
+<section id="brand" class="my-5 pb-5">
     <div class="container">
         <div class="row m-0 py-5">
-            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/brand-6.png" alt="">
-            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/brand-1.jpeg" alt="">
-            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/brand-2.jpeg" alt="">
-            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/brand-4.png" alt="">
-            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/brand-3.png" alt="">
-            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/brand-5.gif" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/companies/b-1.svg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/companies/b-2.svg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/companies/b-3.svg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/companies/b-4.svg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/companies/b-5.svg" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="dist/img/companies/b-5.svg" alt="">
         </div>
     </div>
 </section>
+
+<!-- Categories -->
+<section id="featured" class="my-5 pb-5">
+    <div class="container text-center mt-5 py-5">
+        <h3>Category A-Z</h3>
+        <hr class="mx-auto">
+        <p>Check our product categories</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+        <div class="col-lg-3 col-md-4 col-12">
+            <div class="product text-center">
+                <img src="dist/img/categories/cat-1.jpeg" class="img-fluid mb-3" alt="">
+                <h5 class="p-name">Accessories.</h5>
+                <button class="buy-btn">View</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12">
+            <div class="product text-center">
+                <img src="dist/img/categories/cat-2.jpeg" class="img-fluid mb-3" alt="">
+                <h5 class="p-name">Activity Toys.</h5>
+                <button class="buy-btn">View</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12">
+            <div class="product text-center">
+                <img src="dist/img/categories/cat-3.jpeg" class="img-fluid mb-3" alt="">
+                <h5 class="p-name">Baby Toys.</h5>
+                <button class="buy-btn">View</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12">
+            <div class="product text-center">
+                <img src="dist/img/categories/cat-4.jpeg" class="img-fluid mb-3" alt="">
+                <h5 class="p-name">Bathtime.</h5>
+                <button class="buy-btn">View</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12">
+            <div class="product text-center">
+                <img src="dist/img/categories/cat-5.jpeg" class="img-fluid mb-3" alt="">
+                <h5 class="p-name">Bibs & Muslins.</h5>
+                <button class="buy-btn">View</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12">
+            <div class="product text-center">
+                <img src="dist/img/categories/cat-6.jpeg" class="img-fluid mb-3" alt="">
+                <h5 class="p-name">Bikes & Scooters.</h5>
+                <button class="buy-btn">View</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12">
+            <div class="product text-center">
+                <img src="dist/img/categories/cat-7.jpeg" class="img-fluid mb-3" alt="">
+                <h5 class="p-name">Bottles & Cups.</h5>
+                <button class="buy-btn">View</button>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-12">
+            <div class="product text-center">
+                <img src="dist/img/categories/cat-8.jpeg" class="img-fluid mb-3" alt="">
+                <h5 class="p-name">Educational Toys.</h5>
+                <button class="buy-btn">View</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 
 <!-- New Section -->
 <!-- <section id="new" class="w-100">
@@ -102,16 +181,16 @@
     </div>
 </section> -->
 
-<!-- Features -->
+<!-- Kids T-Shirts -->
 <section id="featured" class="my-5 pb-5">
     <div class="container text-center mt-5 py-5">
-        <h3>Our Featured</h3>
+        <h3>Kids T-Shirts.</h3>
         <hr class="mx-auto">
-        <p>Check our new products with fire price</p>
+        <p>12 things in T-Shirts</p>
     </div>
     <div class="row mx-auto container-fluid">
         <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img src="dist/img/p-1.jpeg" class="img-fluid mb-3" alt="">
+            <img src="dist/img/t-shirt/shirt-1.jpeg" class="img-fluid mb-3" alt="">
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -119,12 +198,25 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
             </div>
-            <h5 class="p-name">New Balance 530 Man</h5>
-            <h4 class="p-price">429 GEL</h4>
+            <h5 class="p-name">Long Sleeve Top</h5>
+            <h4 class="p-price">21 GEL</h4>
+            <button class="buy-btn" onclick="window.location.href='single-product.html';">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img src="dist/img/t-shirt/shirt-2.jpeg" class="img-fluid mb-3" alt="">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Long Sleeve Top</h5>
+            <h4 class="p-price">21 GEL</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
         <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img src="dist/img/p-2.jpeg" class="img-fluid mb-3" alt="">
+            <img src="dist/img/t-shirt/shirt-3.jpeg" class="img-fluid mb-3" alt="">
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -132,12 +224,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
             </div>
-            <h5 class="p-name">New Balance 2002 Woman</h5>
-            <h4 class="p-price">649 GEL</h4>
+            <h5 class="p-name">Organic Polo</h5>
+            <h4 class="p-price">7 GEL</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
         <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img src="dist/img/p-3.jpeg" class="img-fluid mb-3" alt="">
+            <img src="dist/img/t-shirt/shirt-4.jpeg" class="img-fluid mb-3" alt="">
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -145,12 +237,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
             </div>
-            <h5 class="p-name">New Balance 2002 Man</h5>
-            <h4 class="p-price">599 GEL</h4>
+            <h5 class="p-name">Organic Polo</h5>
+            <h4 class="p-price">7 GEL</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
         <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img src="dist/img/p-4.jpeg" class="img-fluid mb-3" alt="">
+            <img src="dist/img/t-shirt/shirt-5.jpeg" class="img-fluid mb-3" alt="">
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -158,8 +250,99 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
             </div>
-            <h5 class="p-name">New Balance Men's T-Shirt</h5>
-            <h4 class="p-price">149 GEL</h4>
+            <h5 class="p-name">Organic Polo</h5>
+            <h4 class="p-price">7 GEL</h4>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img src="dist/img/t-shirt/shirt-6.jpeg" class="img-fluid mb-3" alt="">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Organic Polo</h5>
+            <h4 class="p-price">7 GEL</h4>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img src="dist/img/t-shirt/shirt-7.jpeg" class="img-fluid mb-3" alt="">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Peter Pan Collar T-shirt</h5>
+            <h4 class="p-price">18 GEL</h4>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img src="dist/img/t-shirt/shirt-8.jpeg" class="img-fluid mb-3" alt="">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Jack T-shirt</h5>
+            <h4 class="p-price">18 GEL</h4>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img src="dist/img/t-shirt/shirt-8.jpeg" class="img-fluid mb-3" alt="">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Jack T-shirt</h5>
+            <h4 class="p-price">18 GEL</h4>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img src="dist/img/t-shirt/shirt-10.jpeg" class="img-fluid mb-3" alt="">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Loose Short Sleeve Top</h5>
+            <h4 class="p-price">17 GEL</h4>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img src="dist/img/t-shirt/shirt-11.jpeg" class="img-fluid mb-3" alt="">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Organic Pocket Short Sleeve T-Shirt</h5>
+            <h4 class="p-price">16 GEL</h4>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img src="dist/img/t-shirt/shirt-12.jpeg" class="img-fluid mb-3" alt="">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Perfect Tee</h5>
+            <h4 class="p-price">10 GEL</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
     </div>
@@ -177,26 +360,13 @@
 <!-- Dresses & Jampsuits -->
 <section id="clothes" class="my-5">
     <div class="container text-center mt-5 py-5">
-        <h3>Tables & Chairs</h3>
+        <h3>Kids Tables & Chairs.</h3>
         <hr class="mx-auto">
         <p>27 things</p>
     </div>
     <div class="row mx-auto container-fluid">
         <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img src="dist/img/products/prod-1.jpeg" class="img-fluid mb-3" alt="">
-            <div class="star">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-            </div>
-            <h5 class="p-name">Lai Shelf</h5>
-            <h4 class="p-price">129 GEL</h4>
-            <button class="buy-btn">Buy Now</button>
-        </div>
-        <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img src="dist/img/products/prod-2.jpeg" class="img-fluid mb-3" alt="">
+            <img src="dist/img/tables-and-chairs/prod-1.jpeg" class="img-fluid mb-3" alt="">
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -209,7 +379,7 @@
             <button class="buy-btn">Buy Now</button>
         </div>
         <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img src="dist/img/products/prod-3.jpeg" class="img-fluid mb-3" alt="">
+            <img src="dist/img/tables-and-chairs/prod-2.jpeg" class="img-fluid mb-3" alt="">
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -217,12 +387,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
             </div>
-            <h5 class="p-name">Ava Rattan-Webbing Chair</h5>
-            <h4 class="p-price">65 GEL</h4>
+            <h5 class="p-name">Forest Table</h5>
+            <h4 class="p-price">78 GEL</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
         <div class="product text-center col-lg-3 col-md-4 col-12">
-            <img src="dist/img/products/prod-4.jpeg" class="img-fluid mb-3" alt="">
+            <img src="dist/img/tables-and-chairs/prod-3.jpeg" class="img-fluid mb-3" alt="">
             <div class="star">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -232,6 +402,19 @@
             </div>
             <h5 class="p-name">Rainbow Mini Bench</h5>
             <h4 class="p-price">140 GEL</h4>
+            <button class="buy-btn">Buy Now</button>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img src="dist/img/tables-and-chairs/prod-4.jpeg" class="img-fluid mb-3" alt="">
+            <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Rainbow Mini Chair</h5>
+            <h4 class="p-price">105 GEL</h4>
             <button class="buy-btn">Buy Now</button>
         </div>
     </div>

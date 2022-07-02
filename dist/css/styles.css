@@ -56,7 +56,7 @@ button {
 hr {
     width: 30px;
     height: 2px;
-    background-color: #fb774b;
+    background-color: #84689E;
 }
 
 .star {
@@ -91,7 +91,7 @@ button:hover {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar i:hover,
 .navbar i.active {
-    color: coral;
+    color: #84689E;
 }
 
 /* .navbar i {
@@ -126,7 +126,7 @@ button:hover {
 @media only screen and (max-width: 991px) {
     body>nav>div>button:hover,
     body>nav>div>button:focus {
-        background-color: #fb774b;
+        background-color: #84689E;
     }
 
     body>nav>div>button:hover #bar,
@@ -153,7 +153,7 @@ button:hover {
 
 /* Home Section */
 #home {
-    background-image: url("../img/bg-2.jpeg");
+    background-image: url("../img/headers/h-1.jpeg");
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -254,7 +254,7 @@ button:hover {
 }
 
 .product .buy-btn {
-    background: #fb774b;
+    background: #84689E;
     transform: translateY(20px);
     opacity: 0;
     transition: 0.3s all;
@@ -269,7 +269,7 @@ button:hover {
 
 /* Banner */
 #banner{
-    background-image: url("../img/autumn.jpeg");
+    background-image: url("../img/headers/h-3.jpeg");
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -283,15 +283,15 @@ button:hover {
 }
 
 #banner h4 {
-    color: #000;
+    color: #fff;
 }
 
 #banner h1 {
-    color: #000;
+    color: #fff;
 }
 
 #banner button {
-    background-color: #fb774b;
+    background-color: #84689E;
 }
 
 footer {
@@ -337,7 +337,7 @@ footer .copyright a {
 
 footer .copyright a:hover {
     color: #fff;
-    background-color: #fb774b;
+    background-color: #84689E;
 }
 
 
@@ -364,12 +364,15 @@ footer .copyright a:hover {
 }
 
 #blog-container .post:hover h3 {
-    color: #fb774b;
+    color: #84689E;
 }
 
 
 
-/* Shopping Cart */
+/* ***********************************
+* Shopping Cart
+*********************************** */
+
 #shopping-cart-container {
     overflow-x: auto;
 }
@@ -386,7 +389,7 @@ footer .copyright a:hover {
 }
 
 #shopping-cart-container table thead td {
-    background: #fb774b;
+    background: #545a6a;
     color: #fff;
     border: none;
     padding: 5px;
@@ -430,7 +433,7 @@ footer .copyright a:hover {
 
 #shopping-cart-footer .coupon h5,
 #shopping-cart-footer .total h5 {
-    background: #fb774b;
+    background: #545a6a;
     color: #fff;
     border: none;
     padding: 6px 12px;
