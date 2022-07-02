@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="dist/css/styles.css">
+    <style>
+        .product img {
+            width: 100%;
+            height: auto;
+            box-sizing: border-box;
+            object-fit: cover;
+        }
+
+        #featured > div:nth-child(n) > nav > ul > li.page-item.active > a {
+            background-color: #000;
+        }
+
+        #featured > div:nth-child(n) > nav > ul > li.page-item.active > a:hover {
+            background-color: coral;
+            color: white;
+        }
+
+        .pagination a {
+            color: #000;
+        }
+    </style>
 </head>
 <body>
 
@@ -27,7 +48,7 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="shop.html">Shop</a>
+                    <a class="nav-link active" href="shop.html">Shop</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="blog.html">Blog</a>
@@ -59,24 +80,118 @@
     </div>
 </nav>
 
-<!-- Check your email -->
-<section id="about-header">
+<!-- Wishlist -->
+
+<section id="shop-header">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-12 col-12">
                 <div class="pt-5 mt-5">
-                    <h2 class="font-weight-bold pt-5">Check your email</h2>
+                    <h2 class="font-weight-bold pt-5">Wishlist</h2>
                     <hr>
-                    <div class="alert alert-success" role="alert">
-                        Please check your email or spam folder for activation link
-                    </div>
-                    <code>
-                        For E-Mail <br>
-                        Here is your password reset code [3er4kk456ag67dew] click here to reset your password [<a href="code.html">link</a>]
-                    </code>
+                    <p>4 things</p>
                 </div>
             </div>
         </div>
+    </div>
+</section>
+
+<section id="featured" class="my-5">
+
+    <div class="container">
+
+        <div class="row mx-auto">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img src="dist/img/t-shirt/shirt-1.jpeg" class="img-fluid mb-3" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Long Sleeve Top</h5>
+                <h4 class="p-price">21 GEL</h4>
+                <button class="buy-btn" onclick="window.location.href='single-product.html';">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img src="dist/img/t-shirt/shirt-5.jpeg" class="img-fluid mb-3" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Organic Polo</h5>
+                <h4 class="p-price">7 GEL</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img src="dist/img/t-shirt/shirt-6.jpeg" class="img-fluid mb-3" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Organic Polo</h5>
+                <h4 class="p-price">7 GEL</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img src="dist/img/t-shirt/shirt-8.jpeg" class="img-fluid mb-3" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Jack T-shirt</h5>
+                <h4 class="p-price">18 GEL</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img src="dist/img/t-shirt/shirt-10.jpeg" class="img-fluid mb-3" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Loose Short Sleeve Top</h5>
+                <h4 class="p-price">17 GEL</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img src="dist/img/t-shirt/shirt-12.jpeg" class="img-fluid mb-3" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Perfect Tee</h5>
+                <h4 class="p-price">10 GEL</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+
+
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+
     </div>
 </section>
 
